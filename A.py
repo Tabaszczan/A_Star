@@ -82,7 +82,6 @@ def astar(punktstart, punktkonc, plansza):
                 return sciezka
 
 
-
 droga = astar(start, meta, mapa)
 
 if droga == 'BRAK SCIEZKI':
