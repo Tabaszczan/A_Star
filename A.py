@@ -17,11 +17,6 @@ class Pole:
         self.g = g
         self.fun = 0
 
-    def __eq__(self, other):
-        if self.pozycja == other.pozycja:
-            return True
-        return False
-
 
 def heurestyka(poz, g, cel):
     return g + ((poz[0] - cel[0]) ** 2 + (poz[1] - cel[1]) ** 2) ** (1 / 2)
